@@ -27,6 +27,6 @@ jobs: # 工作流
         env: 
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}   
           TARGET_REPO: xavi-bryant/vuepressBlog
-          TARGET_BRANCH: deploy
+          TARGET_BRANCH: gh-pages
           BUILD_SCRIPT: yarn && yarn build
           BUILD_DIR: docs/.vuepress/dist
