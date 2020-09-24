@@ -1,3 +1,3 @@
-项目地址：https://github.com/xavi-bryant/vuepressBlog
+1. 项目地址：https://github.com/xavi-bryant/vuepressBlog
 
-博客地址：https://www.xavierxin.com/
+2. 博客地址：https://www.xavierxin.com/
