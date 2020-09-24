@@ -12,7 +12,7 @@ if [ -z "$VDOING" ]; then
 else
   msg='来自 github actions的自动部署'
   githubUrl=ssh://xavi-bryant:${VDOING}@github.com:xavi-bryant/vuepressBlog.git
-  git config --global user.name "xavi-bryant"
+  git config --global user.name "xavier"
   git config --global user.email "420948614@qq.com"
 fi
 git init
