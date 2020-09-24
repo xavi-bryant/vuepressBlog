@@ -29,8 +29,8 @@ jobs: # 工作流
           npm run build
 
       - name: Deploy
-        uses: hengkx/ssh-deploy@v1.0.1  // 引用别人的部署插件
+        uses: JamesIves/github-pages-deploy-action@master
         with: 
-          XAVIER: ${{ secrets.XAVIER }}   // 这里需要设置成你的 token
+          XAVIER: ${{ secrets.XAVIER }}   
           BRANCH: gh-pages
           FOLDER: docs/.vuepress/dist
