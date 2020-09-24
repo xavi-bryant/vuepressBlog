@@ -4,4 +4,4 @@
 
 3. github action 生成的在分支 gh-pages
 
-4. ss
+4. hengkx/ssh-deploy@v1.0.1
