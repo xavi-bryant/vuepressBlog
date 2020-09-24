@@ -6,13 +6,13 @@ cd docs/.vuepress/dist
 
 # deploy to github
 #echo 'b.miluluyo.github.io' > CNAME
-if [ -z "$VDOING" ]; then
+if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
   githubUrl=git@github.com:xavi-bryant/vuepressBlog.git
 else
   msg='来自 github actions的自动部署'
-  githubUrl=ssh://xavi-bryant:${VDOING}@github.com:xavi-bryant/vuepressBlog.git
-  git config --global user.name "xavier"
+  githubUrl=https://xavi-bryant:${VDOINGGITHUB_TOKEN}@github.com:xavi-bryant/vuepressBlog.git
+  git config --global user.name "xavi-bryant"
   git config --global user.email "420948614@qq.com"
 fi
 git init
