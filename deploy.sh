@@ -1,3 +1,4 @@
+
 #!/usr/bin/env sh
 
 # 确保脚本抛出遇到的错误
@@ -16,8 +17,8 @@ if [ -z "$VDOING" ]; then
   githubUrl=git@github.com:xavi-bryant/vuepressBlog.git
 else
   msg='来自 github actions的自动部署'
-  githubUrl=https://xavi-bryant:${VDOING}@github.com/xavi-bryant/vuepressBlog.git
-  git config --global user.name "xavier"
+  githubUrl=https://xavi-bryant:${VDOING}@github.com:xavi-bryant/vuepressBlog.git
+  git config --global user.name "xavi-bryant"
   git config --global user.email "420948614@qq.com"
 fi
 git init
