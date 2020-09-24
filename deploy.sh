@@ -16,7 +16,7 @@ if [ -z "$VDOING" ]; then
   githubUrl=git@github.com:xavi-bryant/vuepressBlog.git
 else
   msg='来自 github actions的自动部署'
-  githubUrl=https://miluluyo:${VDOING}@github.com/xavi-bryant/vuepressBlog.git
+  githubUrl=https://xavi-bryant:${VDOING}@github.com/xavi-bryant/vuepressBlog.git
   git config --global user.name "xavier"
   git config --global user.email "420948614@qq.com"
 fi
