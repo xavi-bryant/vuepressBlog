@@ -6,4 +6,3 @@
 
 4. JamesIves/github-pages-deploy-action@master
 
-5. 
